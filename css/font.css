@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'Times';
+    font-display: swap;
+    src: url('../font/times new roman.ttf') format("truetype");
+}
+
+body {
+    font-family: 'times new roman', 'Jiye spiral', 'GenRyuMinTW';
+}
