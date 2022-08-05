@@ -1,9 +1,27 @@
 @font-face{
     font-family: 'Times';
     font-display: swap;
-    src: url('../font/times new roman.ttf') format("truetype");
+    src: url("/source/font/times new roman.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: 'Jiye spiral';
+    font-display: swap;
+    src: url("/source/font/Jiye spiral.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: 'GenRyuMinTW';
+    font-display: swap;
+    src: url("/source/font/GenRyuMinTW-Bold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: 'JiZiJing';
+    font-display: swap;
+    src: url("/source/font/JiZiJingDianXingKaiJianFan-Shan.ttf") format("truetype");
 }
 
 body {
-    font-family: 'times new roman', 'Jiye spiral', 'GenRyuMinTW';
+    font-family: "Microsoft YaHei", 'Times', 'Jiye spiral', 'GenRyuMinTW', 'JiZiJing' ;
 }
